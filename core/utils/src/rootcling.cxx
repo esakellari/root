@@ -150,6 +150,9 @@ const char *rootClingHelp =
 "   MyClass(); // Or a constructor with all its arguments defaulted.         \n"
 "                                                                           \n";
 
+// See Rtypes.h:
+#define R__NO_INLINE_CLASSDEF
+
 #include "RConfigure.h"
 #include "RConfig.h"
 

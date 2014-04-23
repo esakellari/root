@@ -18,6 +18,9 @@
 //////////////////////////////////////////////////////////////////////////
 
 
+// See Rtypes.h:
+#define R__NO_INLINE_CLASSDEF
+
 #include "SelectionRules.h"
 #include <iostream>
 #include "TString.h"
